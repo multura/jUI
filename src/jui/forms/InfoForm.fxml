@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="504" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="16" layoutY="8" prefHeight="73" prefWidth="112" styleClass="label " text="jUI" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Eco Sans Mono Bold" size="50"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label10" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="120" layoutY="32" prefHeight="23" prefWidth="176" styleClass="label " text="Примечания" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas Italic" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
+    <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="16" layoutY="88" prefHeight="376" prefWidth="472" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="168" prefWidth="568" styleClass="">
+          <children>
+            <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="8" prefHeight="160" prefWidth="560" styleClass="label " text="Данная версия - тестовая, поэтому здесь не работают &#10;такие функции как магазин, центр обновлений и экранная&#10;клавиатура. Многие примеры приложений вы сможете &#10;увидеть (в виде проекта DevelNext) по ссылке ниже." textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="20"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="linkAlt" layoutX="40" layoutY="416" prefHeight="16" prefWidth="144" styleClass="hyperlink " text="Примеры приложений" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-linkAlt" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="40" layoutY="392" prefHeight="16" prefWidth="144" styleClass="hyperlink " text="Клавиатура (ТЕСТ)" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-link" visible="1"/>
+  </children>
+</AnchorPane>

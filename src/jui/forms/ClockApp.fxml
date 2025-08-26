@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="368" styleClass="">
+  <children>
+    <TabPaneEx focusTraversable="false" id="tabPane" layoutX="0" layoutY="56" prefHeight="544" prefWidth="368" side="BOTTOM" styleClass="tab-pane " tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="Мировые часы">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="522" prefWidth="368" styleClass="">
+              <children>
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="RIGHT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="16" prefHeight="118" prefWidth="352" styleClass="label " text="HH:MM:SS" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Segoe UI Light" size="60"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="8" layoutY="8" prefHeight="32" prefWidth="352" styleClass="label " text="dd.mm.YYYY" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Segoe UI" size="20"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Секундомер">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="522" prefWidth="368" styleClass="">
+              <children>
+                <HBox alignment="TOP_LEFT" focusTraversable="false" id="hbox" layoutX="24" layoutY="104" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="336" prefWidth="298" spacing="5" styleClass="">
+                  <children>
+                    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="rectAlt" layoutX="0" layoutY="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass="" width="96"/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+                    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="rect" layoutX="101" layoutY="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass="" width="96"/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+                    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="rect3" layoutX="202" layoutY="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass="" width="96"/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+                  </children>
+                </HBox>
+                <Data cursor="DEFAULT" enabled="1" id="data-hbox" visible="1"/>
+                <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="rect4" layoutX="8" layoutY="8.0000152587891" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass="" width="96"/>
+                <Data cursor="DEFAULT" enabled="1" id="data-rect4" visible="1"/>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="24" layoutY="456" prefHeight="17" prefWidth="296" styleClass="label " text="На наводи, пидр!" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Таймер">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="522" prefWidth="368" styleClass="">
+              <children>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="8" layoutY="8" prefHeight="17" prefWidth="352" styleClass="label " text="пань" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPaneEx>
+    <Data cursor="DEFAULT" draggable="NONE" enabled="1" id="data-tabPane" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="button3" layoutX="8" layoutY="608" prefHeight="40" prefWidth="352" styleClass="button " text="Домой" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/icons8-главная-страница-24.png" id="data-button3" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="64" layoutY="8" prefHeight="40" prefWidth="296" styleClass="label " text="Часы" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Semibold" size="24"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="imageAlt" layoutX="8" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/icons8-clock-100.png" visible="1"/>
+  </children>
+</AnchorPane>

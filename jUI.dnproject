@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="neo" authorOS="Windows 10" createdAt="1756138305594" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="jUI" packageName="jui" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1756210526962">
+  <tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/.data"/>
+      <path src="/src/.data/img"/>
+      <path src="/src/.data/web"/>
+      <path src="/src/.theme"/>
+      <path src="/src/jui"/>
+      <path src="/src/jui/forms"/>
+      <path src="/src/jui/modules"/>
+    </expanded>
+  </tree>
+  <openedFiles>
+  <file src="jUI.dnproject"/>
+    <file src="src/jui/modules/MainModule.php"/>
+    <file src="src/jui/forms/MainForm.php"/>
+    <file src="src/jui/forms/HomeMenu.php"/>
+    <file src="src/jui/forms/ClockApp.php"/>
+    <file src="src/jui/forms/NotepadApp.php"/>
+    <file src="src/jui/forms/BrowserApp.php"/>
+    <file src="src/jui/forms/MusicApp.php"/>
+    <file src="src/jui/forms/TubeApp.php"/>
+    <file src="src/jui/forms/PasswordApp.php"/>
+    <file selected="1" src="src/jui/forms/SettingsApp.php"/>
+    <file src="src/jui/forms/StoreApp.php"/>
+    <file src="src/jui/forms/ExampleApp.php"/>
+    <file src="src/jui/forms/InfoForm.php"/>
+    <file src="src/jui/forms/KeyboardForm.php"/>
+  </openedFiles>
+  <files/>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+  </behaviours>
+</project>

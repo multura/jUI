@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="InfoForm">
+    <method name="doLinkAltClick">
+      <browse url="https://github.com/multura/jUI/tree/main/APPS" url-type="string"/>
+    </method>
+  <method name="doLinkClick">
+      <showForm form="KeyboardForm" form-type="form"/>
+    </method>
+  </class>
+</root>

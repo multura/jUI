@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="KeyboardForm">
+    
+  
+  
+  <method name="doButtonAltClick">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="2" value-type="string"/>
+    </method>
+  <method name="doButtonClick">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="1" value-type="string"/>
+    </method>
+    
+    
+    
+    
+    
+    
+    
+    
+  <method name="doButton3Click">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="3" value-type="string"/>
+    </method>
+  <method name="doButton4Click">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="4" value-type="string"/>
+    </method>
+  
+  <method name="doButton6Click">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="6" value-type="string"/>
+    </method>
+  <method name="doButton5Click">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="5" value-type="string"/>
+    </method>
+  <method name="doButton7Click">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="7" value-type="string"/>
+    </method>
+  <method name="doButton8Click">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="8" value-type="string"/>
+    </method>
+  <method name="doButton9Click">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="9" value-type="string"/>
+    </method>
+  <method name="doButton10Click">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="0" value-type="string"/>
+    </method>
+  </class>
+</root>

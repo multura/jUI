@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="SettingsApp">
+    <method name="doButtonClick">
+      <loadForm form="HomeMenu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  
+  <method name="doLinkAltClick">
+      <browse url="https://mt.uzbekistation.serv00.net/jui/#link" url-type="string"/>
+    </method>
+    <method name="doLinkClick">
+      <browse url="https://github.com/#link" url-type="string"/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="HomeMenu">
+    <method name="doPanelClick">
+      <loadForm form="ClockApp" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+    
+    
+  <method name="doPanelAltClick">
+      <loadForm form="NotepadApp" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  <method name="doPanel3Click">
+      <loadForm form="BrowserApp" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  
+  
+  
+  
+  <method name="doPanel6Click">
+      <loadForm form="MusicApp" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  <method name="doPanel5Click">
+      <loadForm form="TubeApp" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  
+  <method name="doImage12Click">
+      <loadForm form="PasswordApp" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  <method name="doLabel11Click">
+      <fadeOut continue="" continue-type="" duration="300" duration-type="integer" object="panel10" object-type="object"/>
+      <elementHide object="panel10" object-type="object"/>
+    </method>
+  <method name="doPanel4Click">
+      <elementShow object="panel10" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="300" duration-type="integer" object="panel10" object-type="object"/>
+    </method>
+  <method name="doPanel9Click">
+      <loadForm form="SettingsApp" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  <method name="doButton3Click">
+      <loadForm form="MainForm" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  
+  <method name="doPanel8Click">
+      <loadForm form="StoreApp" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  <method name="doShowing">
+      <elementHide object="panel10" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="1" duration-type="integer" object="panel10" object-type="object"/>
+    </method>
+  <method name="doImage11Click">
+      <loadForm form="ExampleApp" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  </class>
+</root>

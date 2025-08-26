@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="NotepadApp">
+    
+    
+  
+  <method name="doButton3Click">
+      <loadForm form="HomeMenu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <elementSetValue object="textArea" object-type="object" relative="" relative-type="" value="" value-type="string"/>
+    </method>
+  </class>
+</root>

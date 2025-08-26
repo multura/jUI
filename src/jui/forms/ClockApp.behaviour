@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="label">
+    <behaviour format="HH:mm:ss" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="labelAlt">
+    <behaviour format="dd.MM.YYYY" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="rectAlt">
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+  </target>
+  <target id="rect">
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+  </target>
+  <target id="rect3">
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+  </target>
+  <target id="rect4">
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+  </target>
+</behaviours>

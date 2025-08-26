@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="panel">
+    <behaviour delay="0" duration="300" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="panelAlt">
+    <behaviour delay="0" duration="300" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="panel3">
+    <behaviour delay="0" duration="300" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="panel4">
+    <behaviour delay="0" duration="300" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="panel5">
+    <behaviour delay="0" duration="300" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="panel6">
+    <behaviour delay="0" duration="300" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="panel7">
+    <behaviour delay="0" duration="300" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="panel8">
+    <behaviour delay="0" duration="300" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="panel9">
+    <behaviour delay="0" duration="300" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+</behaviours>
