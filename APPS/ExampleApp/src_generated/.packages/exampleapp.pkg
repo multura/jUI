@@ -1,0 +1,5 @@
+[classes]
+exampleapp\forms\HomeMenu
+exampleapp\forms\MainForm
+exampleapp\modules\AppModule
+exampleapp\modules\MainModule

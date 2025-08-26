@@ -1,0 +1,4 @@
+[classes]
+webapp\forms\MainForm
+webapp\modules\AppModule
+webapp\modules\MainModule
