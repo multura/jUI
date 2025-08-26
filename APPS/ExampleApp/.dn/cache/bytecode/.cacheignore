@@ -1,0 +1,6 @@
+.debug/bootstrap.php
+.debug/preloader.php
+exampleapp/forms/HomeMenu.php
+exampleapp/forms/MainForm.php
+exampleapp/modules/AppModule.php
+exampleapp/modules/MainModule.php
