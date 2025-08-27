@@ -87,4 +87,33 @@ class KeyboardForm extends AbstractForm
         
     }
 
+    /**
+     * @event button11.click 
+     */
+    function doButton11Click(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event button12.click 
+     */
+    function doButton12Click(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

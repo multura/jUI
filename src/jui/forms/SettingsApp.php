@@ -2,6 +2,7 @@
 namespace jui\forms;
 
 use std, gui, framework, jui;
+use php\io\Stream;use php\io\IOException;
 
 
 class SettingsApp extends AbstractForm
@@ -30,6 +31,40 @@ class SettingsApp extends AbstractForm
     {    
         
     }
+
+    /**
+     * @event button3.click 
+     */
+    function doButton3Click(UXMouseEvent $e = null)
+    {    
+      try {   $content = Stream::getContents('http://mt.uzbekistation.serv00.net/jui/version');} catch (IOException $e) { $this->panel->hide();    }
+    }
+
+    /**
+     * @event showing 
+     */
+    function doShowing(UXWindowEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event buttonAlt.click 
+     */
+    function doButtonAltClick(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event label6.mouseEnter 
+     */
+    function doLabel6MouseEnter(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+
 
 
 

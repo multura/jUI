@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="neo" authorOS="Windows 10" createdAt="1756138305594" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="jUI" packageName="jui" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1756210526962">
+<project author="neo" authorOS="Windows 10" createdAt="1756138305594" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="jUI" packageName="jui" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1756307081817">
   <tree>
     <expanded>
     <path src=""/>
       <path src="/src"/>
       <path src="/src/.data"/>
-      <path src="/src/.data/img"/>
       <path src="/src/.data/web"/>
       <path src="/src/.theme"/>
       <path src="/src/jui"/>

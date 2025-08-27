@@ -5,11 +5,50 @@
       <loadForm form="HomeMenu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
     </method>
   
-  <method name="doLinkAltClick">
-      <browse url="https://mt.uzbekistation.serv00.net/jui/#link" url-type="string"/>
-    </method>
+  
     <method name="doLinkClick">
       <browse url="https://github.com/#link" url-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doButtonAltClick">
+      <loadForm form="MainForm" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  
+  <method name="doLabel6MouseEnter">
+      <toast value="OmegaDotNet (2024-2025)" value-type="string"/>
+    </method>
+  <method name="doButton3Click">
+      <ifText method="equals" method-type="" not="" not-type="" object="label12" object-type="object" string="ODN-OFFICIAL_0.1.1(beta)" string-type="string"/>
+      <elementShow object="label9" object-type="object"/>
+      <else/>
+      <elementShow object="panel" object-type="object"/>
+    </method>
+  <method name="doLinkAltClick">
+      <toast value="Временно недоступно" value-type="string"/>
+    </method>
+  
+  
+  
+  
+  <method name="doShowing">
+      <elementHide object="label9" object-type="object"/>
+      <elementHide object="panel" object-type="object"/>
+      <elementLoadContent object="label12" object-type="object" path="http://mt.uzbekistation.serv00.net/jui/version" path-type="string" sync="" sync-type=""/>
+      <elementHide object="panelAlt" object-type="object"/>
     </method>
   </class>
 </root>

@@ -4,44 +4,68 @@
     
   
   
-  <method name="doButtonAltClick">
-      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="2" value-type="string"/>
-    </method>
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
   <method name="doButtonClick">
       <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="1" value-type="string"/>
     </method>
-    
-    
-    
-    
-    
-    
-    
-    
-  <method name="doButton3Click">
+    <method name="doButtonAltClick">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="2" value-type="string"/>
+    </method>
+    <method name="doButton3Click">
       <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="3" value-type="string"/>
     </method>
-  <method name="doButton4Click">
+    <method name="doButton4Click">
       <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="4" value-type="string"/>
     </method>
-  
-  <method name="doButton6Click">
-      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="6" value-type="string"/>
-    </method>
-  <method name="doButton5Click">
+    <method name="doButton5Click">
       <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="5" value-type="string"/>
     </method>
-  <method name="doButton7Click">
+    <method name="doButton6Click">
+      <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="6" value-type="string"/>
+    </method>
+    <method name="doButton7Click">
       <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="7" value-type="string"/>
     </method>
-  <method name="doButton8Click">
+    <method name="doButton8Click">
       <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="8" value-type="string"/>
     </method>
-  <method name="doButton9Click">
+    <method name="doButton9Click">
       <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="9" value-type="string"/>
     </method>
-  <method name="doButton10Click">
+    <method name="doButton10Click">
       <elementSetText object="edit" object-type="object" relative="1" relative-type="" value="0" value-type="string"/>
+    </method>
+    <method name="doButton11Click">
+      <elementSetValue object="edit" object-type="object" relative="" relative-type="" value="" value-type="string"/>
+      <elementSetText object="editAlt" object-type="object" relative="" relative-type="" value="" value-type="string"/>
+    </method>
+    <method name="doButton12Click">
+      <elementSetText object="editAlt" object-type="object" relative="" relative-type="" value="edit" value-type="object"/>
+      <elementSetText object="edit" object-type="object" relative="" relative-type="" value="" value-type="string"/>
     </method>
   </class>
 </root>

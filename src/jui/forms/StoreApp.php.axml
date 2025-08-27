@@ -4,5 +4,11 @@
     <method name="doButtonClick">
       <loadForm form="HomeMenu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
     </method>
+  
+  
+  <method name="doShowing">
+      <elementLoadContent object="labelAlt" object-type="object" path="http://mt.uzbekistation.serv00.net/jui/store/1/title" path-type="string" sync="" sync-type=""/>
+      <elementLoadContent object="label3" object-type="object" path="http://mt.uzbekistation.serv00.net/jui/store/1/author" path-type="string" sync="" sync-type=""/>
+    </method>
   </class>
 </root>

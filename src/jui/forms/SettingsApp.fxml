@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="368" styleClass="">
   <children>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="64" layoutY="8" prefHeight="40" prefWidth="296" styleClass="label " text="Настройки" textAlignment="CENTER" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="64" layoutY="8" prefHeight="40" prefWidth="296" styleClass="label " text="Настройки" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="Segoe UI Semibold" size="24"/>
       </font>
@@ -23,15 +23,15 @@
       <tabs>
         <Tab text="Информация о системе">
           <content>
-            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="522" prefWidth="368" styleClass="">
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="507" prefWidth="368" styleClass="">
               <children>
-                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="128" layoutY="32" prefHeight="73" prefWidth="112" styleClass="label " text="jUI" textAlignment="LEFT" underline="false" wrapText="false">
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="128" layoutY="32" prefHeight="73" prefWidth="112" styleClass="label " text="jUI" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
                   <font>
                     <Font name="Eco Sans Mono Bold" size="50"/>
                   </font>
                 </LabelEx>
                 <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
-                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="128" layoutY="104" prefHeight="23" prefWidth="112" styleClass="label " text="justUI" textAlignment="LEFT" underline="false" wrapText="false">
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="128" layoutY="104" prefHeight="23" prefWidth="112" styleClass="label " text="justUI" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
                   <font>
                     <Font name="Consolas Italic" size="20"/>
                   </font>
@@ -39,19 +39,19 @@
                 <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
                 <Separator focusTraversable="false" id="separator" layoutX="24" layoutY="144" orientation="HORIZONTAL" prefHeight="13" prefWidth="320" styleClass="separator "/>
                 <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
-                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="24" layoutY="168" prefHeight="32" prefWidth="96" styleClass="label " text="Версия ПО:" textAlignment="LEFT" underline="false" wrapText="false">
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="24" layoutY="168" prefHeight="32" prefWidth="96" styleClass="label " text="Версия ПО:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
                   <font>
                     <Font name="System Bold" size="16"/>
                   </font>
                 </LabelEx>
                 <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
-                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="128" layoutY="168" prefHeight="32" prefWidth="216" styleClass="label " text="ODN-OFFICIAL_0.1(beta)" textAlignment="LEFT" underline="false" wrapText="false">
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="128" layoutY="168" prefHeight="32" prefWidth="216" styleClass="label " text="ODN-OFFICIAL_0.1(beta)" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
                   <font>
                     <Font name="System Regular" size="12"/>
                   </font>
                 </LabelEx>
                 <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
-                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="8" layoutY="480" prefHeight="17" prefWidth="352" styleClass="label " text="ODN (2024-2025)" textAlignment="LEFT" underline="false" wrapText="false">
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="8" layoutY="480" prefHeight="17" prefWidth="352" styleClass="label " text="ODN (2024-2025)" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
                   <font>
                     <Font name="System Regular" size="12"/>
                   </font>
@@ -63,43 +63,17 @@
         </Tab>
         <Tab text="Центр обновлений">
           <content>
-            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="522" prefWidth="368" styleClass="">
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="507" prefWidth="368" styleClass="">
               <children>
-                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="64" layoutY="152" prefHeight="40" prefWidth="248" styleClass="label " text="У вас установлена новейшая версия ПО! &#10;ODN-OFFICIAL_0.1(beta)" textAlignment="CENTER" underline="false" wrapText="false">
-                  <font>
-                    <Font name="System Bold" size="12"/>
-                  </font>
-                </LabelEx>
-                <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
-                <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="64" layoutY="208" prefHeight="32" prefWidth="248" styleClass="button " text="Проверить на наличие новой версии ПО" textAlignment="CENTER" underline="false" wrapText="false">
-                  <font>
-                    <Font name="System Regular" size="12"/>
-                  </font>
-                </Button>
-                <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
-                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="128" layoutY="16" prefHeight="73" prefWidth="112" styleClass="label " text="jUI" textAlignment="LEFT" underline="false" wrapText="false">
-                  <font>
-                    <Font name="Eco Sans Mono Bold" size="50"/>
-                  </font>
-                </LabelEx>
-                <Data cursor="DEFAULT" enabled="1" id="data-label10" visible="1"/>
-                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="96" layoutY="88" prefHeight="23" prefWidth="176" styleClass="label " text="Центр обновлений" textAlignment="LEFT" underline="false" wrapText="false">
-                  <font>
-                    <Font name="Consolas Italic" size="20"/>
-                  </font>
-                </LabelEx>
-                <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
-                <Separator focusTraversable="false" id="separatorAlt" layoutX="24" layoutY="120" orientation="HORIZONTAL" prefHeight="13" prefWidth="320" styleClass="separator "/>
-                <Data cursor="DEFAULT" enabled="1" id="data-separatorAlt" visible="1"/>
-                <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="8" layoutY="344" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="168" prefWidth="352" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+                <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="8" layoutY="312" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="184" prefWidth="352" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
                   <children>
-                    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="linkAlt" layoutX="16" layoutY="128" prefHeight="24" prefWidth="216" styleClass="hyperlink " text="Скачать (зеркало #2)" textAlignment="LEFT" wrapText="false">
+                    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="linkAlt" layoutX="16" layoutY="152" prefHeight="16" prefWidth="216" styleClass="hyperlink " text="Скачать (зеркало #2)" textAlignment="LEFT" wrapText="false">
                       <font>
                         <Font name="System Regular" size="12"/>
                       </font>
                     </Hyperlink>
                     <Data cursor="DEFAULT" enabled="1" id="data-linkAlt" visible="1"/>
-                    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="16" layoutY="104" prefHeight="17" prefWidth="216" styleClass="hyperlink " text="Скачать (зеркало #1)" textAlignment="LEFT" wrapText="false">
+                    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="16" layoutY="128" prefHeight="17" prefWidth="216" styleClass="hyperlink " text="Скачать (зеркало #1)" textAlignment="LEFT" wrapText="false">
                       <font>
                         <Font name="System Regular" size="12"/>
                       </font>
@@ -111,18 +85,74 @@
                       </font>
                     </LabelEx>
                     <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
-                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="16" layoutY="16" prefHeight="17" prefWidth="120" styleClass="label " text="ODN Update Center" textAlignment="LEFT" underline="false" wrapText="false">
+                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="16" layoutY="16" prefHeight="17" prefWidth="120" styleClass="label " text="ODN Update Center" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
                       <font>
                         <Font name="System Bold" size="12"/>
                       </font>
                     </LabelEx>
                     <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+                    <Separator focusTraversable="false" id="separator3" layoutX="16" layoutY="104" orientation="HORIZONTAL" prefHeight="13" prefWidth="320" styleClass="separator "/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-separator3" visible="1"/>
                   </children>
                   <titleFont>
                     <Font name="System Regular" size="12"/>
                   </titleFont>
                 </Panel>
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="64" layoutY="152" prefHeight="40" prefWidth="248" styleClass="label " text="У вас установлена новейшая версия ПО! &#10;ODN-OFFICIAL_0.1.1(beta)" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Bold" size="12"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
+                <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="button3" layoutX="64" layoutY="208" prefHeight="32" prefWidth="248" styleClass="button " text="Проверить на наличие новой версии ПО" textAlignment="CENTER" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </Button>
+                <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="128" layoutY="16" prefHeight="73" prefWidth="112" styleClass="label " text="jUI" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Eco Sans Mono Bold" size="50"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label10" visible="1"/>
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="96" layoutY="88" prefHeight="23" prefWidth="176" styleClass="label " text="Центр обновлений" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Consolas Italic" size="20"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
+                <Separator focusTraversable="false" id="separatorAlt" layoutX="24" layoutY="120" orientation="HORIZONTAL" prefHeight="13" prefWidth="320" styleClass="separator "/>
+                <Data cursor="DEFAULT" enabled="1" id="data-separatorAlt" visible="1"/>
                 <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+                <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+                <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panelAlt" layoutX="8" layoutY="144" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="152" prefWidth="352" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+                  <children>
+                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label14" layoutX="16" layoutY="40" prefHeight="40" prefWidth="312" styleClass="label " text="Не удалось подключится к серверу mt.uzbekistation.serv00.net&#10;Возможно, у вас отключен интернет." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+                      <font>
+                        <Font name="System Regular" size="12"/>
+                      </font>
+                    </LabelEx>
+                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label15" layoutX="16" layoutY="16" prefHeight="17" prefWidth="120" styleClass="label " text="ODN Update Center" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+                      <font>
+                        <Font name="System Bold" size="12"/>
+                      </font>
+                    </LabelEx>
+                    <Data cursor="DEFAULT" enabled="1" id="data-label14" visible="1"/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-label15" visible="1"/>
+                    <Separator focusTraversable="false" id="separator4" layoutX="16" layoutY="88" orientation="HORIZONTAL" prefHeight="13" prefWidth="320" styleClass="separator "/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-separator4" visible="1"/>
+                    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="16" layoutY="104" prefHeight="32" prefWidth="320" styleClass="button " text="Перезагрузить jUI" textAlignment="CENTER" underline="false" wrapText="false">
+                      <font>
+                        <Font name="System Regular" size="12"/>
+                      </font>
+                    </Button>
+                    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+                  </children>
+                  <titleFont>
+                    <Font name="System Regular" size="12"/>
+                  </titleFont>
+                </Panel>
               </children>
             </AnchorPane>
           </content>
@@ -130,5 +160,11 @@
       </tabs>
     </TabPaneEx>
     <Data cursor="DEFAULT" draggable="NONE" enabled="1" id="data-tabPane" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="416" layoutY="16" prefHeight="17" prefWidth="720" styleClass="label " text="ODN-OFFICIAL_0.1.1(beta)" textAlignment="LEFT" underline="false" wrapText="true">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label12" visible="1"/>
   </children>
 </AnchorPane>
